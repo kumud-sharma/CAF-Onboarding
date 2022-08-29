@@ -171,10 +171,11 @@ In a tile on Defender for Cloud's Overview (main dashboard):
 In the dedicated Secure score page you can see the secure score for your subscription and your management groups:
 
 ![image](https://user-images.githubusercontent.com/33771500/187204131-3d17cfe3-cfa2-46c2-bc44-8f8fa2c82840.png)
+
 ![image](https://user-images.githubusercontent.com/33771500/187204388-416987ed-2f32-4019-876a-6653ff9563c4.png)
-![image](https://user-images.githubusercontent.com/33771500/187204456-1a3625a5-2dcb-4d4c-8024-91741bcb03da.png)
+
 ![image](https://user-images.githubusercontent.com/33771500/187204568-04b8a3c1-6b43-4250-98a3-6e7c4d3671ec.png)
-![image](https://user-images.githubusercontent.com/33771500/187204614-0aecf34f-de11-49a3-8dc5-88f6eeae421a.png)
+
 
 ## Get your secure score from Azure Resource Graph
 
