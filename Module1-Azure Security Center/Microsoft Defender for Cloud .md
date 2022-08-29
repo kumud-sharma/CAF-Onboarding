@@ -96,6 +96,7 @@ If you choose to disable the enhanced security features for a subscription, you'
 
 Microsoft Defender for Cloud applies security initiatives to your subscriptions. These initiatives contain one or more security policies. Each of those policies results in a security recommendation for improving your security posture.
 ## What is a security policy?
+https://docs.microsoft.com/en-us/azure/defender-for-cloud/policy-reference#microsoft-defender-for-cloud-initiatives
 
 An Azure Policy definition, created in Azure Policy, is a rule about specific security conditions that you want controlled. Built in definitions include things like controlling what type of resources can be deployed or enforcing the use of tags on all resources. You can also create your own custom policy definitions.
 
