@@ -120,3 +120,19 @@ Add your own custom initiatives - If you want to customize the security initiati
 Add regulatory compliance standards as initiatives - Defender for Cloud's regulatory compliance dashboard shows the status of all the assessments within your environment in the context of a particular standard or regulation (such as Azure CIS, NIST SP 800-53 R4, SWIFT CSP CSCF-v2020). For more information, see Improve your regulatory compliance.
 
 ## Exercise 3: Secure Score 
+
+What is a Secure Score?
+As you must have known by now that the azure security center has two goals :
+
+It helps you understand your current security situation.
+It helps you improve your security situation by giving recommendations.
+A secure score is a way to achieve your goal: the higher the score, the lower the risk level.
+
+To improve the percentage, review Security center recommendations for the pending actions. Proposals also include steps to follow to achieve the goal.
+
+Secure Score
+How is the Secure Score Calculated?
+Each recommendation has some points assigned to it. If you apply that recommendation, the score will automatically increase. Each proposal will have a maximum score and current score, as shown in the figure.
+
+Score Calculation 
+Few formulas are used by azure to calculate the score, which you as a user don’t need to worry about. You need to follow the security recommendations provided by the Azure Security Center.
