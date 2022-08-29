@@ -219,6 +219,19 @@ On the Security posture page, you're able to see the secure score for your entir
 | ![image](https://user-images.githubusercontent.com/33771500/187208403-f0394ec7-6a5b-450f-a78d-2bef56aad1ba.png) | Select your environment to see its secure score, and details. Multiple environments can be selected at once. The page will change based on your selection here.|
 | ![image](https://user-images.githubusercontent.com/33771500/187208758-4c84b632-3f1b-4391-9d7f-ce4fafb7ade8.png) | Shows the total number of subscriptions, accounts and projects that affect your overall score. It also shows how many unhealthy resources and how many recommendations exist in your environments. |
 
+The bottom half of the page allows you to view and manage viewing the individual secure scores, number of unhealthy resources and even view the recommendations for all of your individual subscriptions, accounts, and projects.
+
+You can group this section by environment by selecting the Group by Environment checkbox.
+
+![image](https://user-images.githubusercontent.com/33771500/187209213-ff9806fd-c8c2-4288-a42d-8978ca91b870.png)
+
+## How your secure score is calculated
+
+The contribution of each security control towards the overall secure score is shown on the recommendations page.
+![image](https://user-images.githubusercontent.com/33771500/187209833-1e21a86b-5459-4b81-a907-108c45d00794.png)
+To get all the possible points for a security control, all of your resources must comply with all of the security recommendations within the security control. For example, Defender for Cloud has multiple recommendations regarding how to secure your management ports. You'll need to remediate them all to make a difference to your secure score.
+
+
 
 
 
