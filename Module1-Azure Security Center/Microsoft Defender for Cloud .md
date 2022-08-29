@@ -136,3 +136,97 @@ Each recommendation has some points assigned to it. If you apply that recommenda
 
 Score Calculation 
 Few formulas are used by azure to calculate the score, which you as a user don’t need to worry about. You need to follow the security recommendations provided by the Azure Security Center.
+Overview of secure score
+Microsoft Defender for Cloud has two main goals:
+
+to help you understand your current security situation
+to help you efficiently and effectively improve your security
+The central feature in Defender for Cloud that enables you to achieve those goals is the secure score.
+
+Defender for Cloud continually assesses your cross-cloud resources for security issues. It then aggregates all the findings into a single score so that you can tell, at a glance, your current security situation: the higher the score, the lower the identified risk level.
+
+In the Azure portal pages, the secure score is shown as a percentage value and the underlying values are also clearly presented:
+
+Overview of secure score
+Microsoft Defender for Cloud has two main goals:
+
+to help you understand your current security situation
+to help you efficiently and effectively improve your security
+The central feature in Defender for Cloud that enables you to achieve those goals is the secure score.
+
+Defender for Cloud continually assesses your cross-cloud resources for security issues. It then aggregates all the findings into a single score so that you can tell, at a glance, your current security situation: the higher the score, the lower the identified risk level.
+
+In the Azure portal pages, the secure score is shown as a percentage value and the underlying values are also clearly presented:
+## Access and track your secure score
+You can find your overall secure score, as well as your score per subscription, through the Azure portal or programmatically as described in the following sections:
+Get your secure score from the portal
+Defender for Cloud displays your score prominently in the portal: it's the first main tile the Defender for Cloud overview page. Selecting this tile, takes you to the dedicated secure score page, where you'll see the score broken down by subscription. Select a single subscription to see the detailed list of prioritized recommendations and the potential impact that remediating them will have on the subscription's score.
+
+To recap, your secure score is shown in the following locations in Defender for Cloud's portal pages.
+
+In a tile on Defender for Cloud's Overview (main dashboard):
+
+![image](https://user-images.githubusercontent.com/33771500/187204010-07095f19-2342-43c1-80f6-6bbdcd1f08ad.png)
+
+In the dedicated Secure score page you can see the secure score for your subscription and your management groups:
+
+![image](https://user-images.githubusercontent.com/33771500/187204131-3d17cfe3-cfa2-46c2-bc44-8f8fa2c82840.png)
+![image](https://user-images.githubusercontent.com/33771500/187204388-416987ed-2f32-4019-876a-6653ff9563c4.png)
+![image](https://user-images.githubusercontent.com/33771500/187204456-1a3625a5-2dcb-4d4c-8024-91741bcb03da.png)
+![image](https://user-images.githubusercontent.com/33771500/187204568-04b8a3c1-6b43-4250-98a3-6e7c4d3671ec.png)
+![image](https://user-images.githubusercontent.com/33771500/187204614-0aecf34f-de11-49a3-8dc5-88f6eeae421a.png)
+
+## Get your secure score from Azure Resource Graph
+
+Azure Resource Graph provides instant access to resource information across your cloud environments with robust filtering, grouping, and sorting capabilities. It's a quick and efficient way to query information across Azure subscriptions programmatically or from within the Azure portal.
+
+To access the secure score for multiple subscriptions with Azure Resource Graph:
+
+From the Azure portal, open Azure Resource Graph Explorer.
+
+![image](https://user-images.githubusercontent.com/33771500/187205148-7763819f-a6bb-404b-a839-cbf2498b017d.png)
+
+
+## Improving your Secure Posture 
+# Security posture for Microsoft Defender for Cloud
+Overview of secure score
+## Overview of secure score
+
+Microsoft Defender for Cloud has two main goals:
+
+- to help you understand your current security situation
+- to help you efficiently and effectively improve your security
+
+The central feature in Defender for Cloud that enables you to achieve those goals is the **secure score**.
+
+Defender for Cloud continually assesses your cross-cloud resources for security issues. It then aggregates all the findings into a single score so that you can tell, at a glance, your current security situation: the higher the score, the lower the identified risk level.
+
+- In the Azure portal pages, the secure score is shown as a percentage value and the underlying values are also clearly presented:
+![image](https://user-images.githubusercontent.com/33771500/187206639-bfa02d2d-ce35-469d-924b-999456593d4a.png)
+
+- In the Azure mobile app, the secure score is shown as a percentage value and you can tap the secure score to see the details that explain the score:
+To increase your security, review Defender for Cloud's recommendations page and remediate the recommendation by implementing the remediation instructions for each issue. Recommendations are grouped into **security controls**. Each control is a logical group of related security recommendations, and reflects your vulnerable attack surfaces. Your score only improves when you remediate *all* of the recommendations for a single resource within a control. To see how well your organization is securing each individual attack surface, review the scores for each security control.
+
+For more information, see [How your secure score is calculated](secure-score-security-controls.md#how-your-secure-score-is-calculated) below.
+## Manage your security posture
+
+On the Security posture page, you're able to see the secure score for your entire subscription, and each environment in your subscription. By default all environments are shown.
+
+![image](https://user-images.githubusercontent.com/33771500/187207029-62d3c8f5-e702-4dea-8292-0277a4b71886.png)
+
+| Page section | Description |
+|--|--|
+| ![image](https://user-images.githubusercontent.com/33771500/187208403-f0394ec7-6a5b-450f-a78d-2bef56aad1ba.png) | Select your environment to see its secure score, and details. Multiple environments can be selected at once. The page will change based on your selection here.|
+| ![image](https://user-images.githubusercontent.com/33771500/187208758-4c84b632-3f1b-4391-9d7f-ce4fafb7ade8.png) | Shows the total number of subscriptions, accounts and projects that affect your overall score. It also shows how many unhealthy resources and how many recommendations exist in your environments. |
+
+
+
+
+
+
+
+
+
+
+
+
