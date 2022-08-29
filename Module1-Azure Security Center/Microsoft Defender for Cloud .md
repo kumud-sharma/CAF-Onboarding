@@ -90,4 +90,15 @@ If you choose to disable the enhanced security features for a subscription, you'
 ![image](https://user-images.githubusercontent.com/33771500/187178351-ec9fa146-c368-4d3b-9b3d-bda09f773703.png)
 
 
+### Exercise 2: Configure Security Policies
 
+# What are security policies, initiatives, and recommendations?
+
+Microsoft Defender for Cloud applies security initiatives to your subscriptions. These initiatives contain one or more security policies. Each of those policies results in a security recommendation for improving your security posture.
+## What is a security policy?
+
+An Azure Policy definition, created in Azure Policy, is a rule about specific security conditions that you want controlled. Built in definitions include things like controlling what type of resources can be deployed or enforcing the use of tags on all resources. You can also create your own custom policy definitions.
+
+To implement these policy definitions (whether built-in or custom), you'll need to assign them. You can assign any of these policies through the Azure portal, PowerShell, or Azure CLI. Policies can be disabled or enabled from Azure Policy.
+
+There are different types of policies in Azure Policy. Defender for Cloud mainly uses 'Audit' policies that check specific conditions and configurations then report on compliance. There are also "Enforce' policies that can be used to apply secure settings.
