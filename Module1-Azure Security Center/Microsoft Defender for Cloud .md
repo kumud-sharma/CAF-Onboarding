@@ -90,7 +90,7 @@ If you choose to disable the enhanced security features for a subscription, you'
 ![image](https://user-images.githubusercontent.com/33771500/187178351-ec9fa146-c368-4d3b-9b3d-bda09f773703.png)
 
 
-### Exercise 2: Configure Security Policies
+## Exercise 2: Configure Security Policies
 
 # What are security policies, initiatives, and recommendations?
 
@@ -118,3 +118,5 @@ The name of each built-in policy definition links to the policy definition in th
 Add your own custom initiatives - If you want to customize the security initiatives applied to your subscription, you can do so within Defender for Cloud. You'll then receive recommendations if your machines don't follow the policies you create. For instructions on building and assigning custom policies, see Using custom security initiatives and policies.
 
 Add regulatory compliance standards as initiatives - Defender for Cloud's regulatory compliance dashboard shows the status of all the assessments within your environment in the context of a particular standard or regulation (such as Azure CIS, NIST SP 800-53 R4, SWIFT CSP CSCF-v2020). For more information, see Improve your regulatory compliance.
+
+## Exercise 3: Secure Score 
