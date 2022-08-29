@@ -107,6 +107,13 @@ Defender for Cloud offers the following options for working with security initia
 
 View and edit the built-in default initiative - When you enable Defender for Cloud, the initiative named 'Azure Security Benchmark' is automatically assigned to all Defender for Cloud registered subscriptions. To customize this initiative, you can enable or disable individual policies within it by editing a policy's parameters. See the list of built-in security policies to understand the options available out-of-the-box.
 
+The initiatives group lists the Azure Policy initiative definitions in the "Defender for Cloud" category.
+The default initiative group lists all the Azure Policy definitions that are part of Defender for Cloud's default initiative, Azure Security Benchmark. This Microsoft-authored, widely respected benchmark builds on controls from the Center for Internet Security (CIS) and the National Institute of Standards and Technology (NIST) with a focus on cloud-centric security.
+The category group lists all the Azure Policy definitions in the "Defender for Cloud" category.
+For more information about security policies, see Working with security policies. For additional Azure Policy built-ins for other services, see Azure Policy built-in definitions.
+
+The name of each built-in policy definition links to the policy definition in the Azure portal. Use the link in the Version column to view the source on the Azure Policy GitHub repo.
+
 Add your own custom initiatives - If you want to customize the security initiatives applied to your subscription, you can do so within Defender for Cloud. You'll then receive recommendations if your machines don't follow the policies you create. For instructions on building and assigning custom policies, see Using custom security initiatives and policies.
 
 Add regulatory compliance standards as initiatives - Defender for Cloud's regulatory compliance dashboard shows the status of all the assessments within your environment in the context of a particular standard or regulation (such as Azure CIS, NIST SP 800-53 R4, SWIFT CSP CSCF-v2020). For more information, see Improve your regulatory compliance.
